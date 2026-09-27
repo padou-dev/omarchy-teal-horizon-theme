@@ -1,0 +1,8 @@
+# Pink Horizon for cliamp (https://www.cliamp.stream)
+bg = "#0f1f22"
+accent = "#66bcbe"
+bright_fg = "#fdf4f6"
+fg = "#a6c4c3"
+green = "#7fbf9a"
+yellow = "#e6c79c"
+red = "#e8839a"

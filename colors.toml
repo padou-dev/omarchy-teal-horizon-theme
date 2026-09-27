@@ -1,0 +1,37 @@
+# Pink Horizon — an Omarchy theme
+# Palette sampled from the wallpaper: misty teal forest, pink sunset glow.
+mode = "dark"
+
+accent = "#66bcbe"
+selection = "#24474d"
+muted = "#4d7076"
+
+background = "#0f1f22"
+dark_background = "#0b181a"
+darker_background = "#071113"
+lighter_background = "#183236"
+
+foreground = "#d6e5e3"
+dark_foreground = "#3f6368"
+light_foreground = "#a6c4c3"
+bright_foreground = "#fdf4f6"
+
+red = "#e8839a"
+yellow = "#e6c79c"
+orange = "#e3a38a"
+green = "#7fbf9a"
+cyan = "#7cc7c4"
+blue = "#6aa5c8"
+magenta = "#ebb4c2"
+brown = "#7a5a55"
+
+bright_red = "#f2a9b9"
+bright_yellow = "#f1dcbd"
+bright_green = "#a9d8bc"
+bright_cyan = "#a8dedb"
+bright_blue = "#98c3dc"
+bright_magenta = "#f5d0da"
+
+# Window borders: teal accent, softly faded teal when inactive
+hyprland_active_border = "rgba(66bcbeee) rgba(7cc7c4ee) 45deg"
+hyprland_inactive_border = "rgba(24474daa)"
