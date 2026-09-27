@@ -1,4 +1,4 @@
-/* Pink Horizon for Zen Browser — userChrome.css (browser UI) */
+/* Teal Horizon for Zen Browser — userChrome.css (browser UI) */
 @media (prefers-color-scheme: dark) {
   :root {
     --zen-primary-color: #66bcbe !important;

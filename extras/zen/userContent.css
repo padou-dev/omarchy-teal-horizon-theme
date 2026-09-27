@@ -1,4 +1,4 @@
-/* Pink Horizon for Zen Browser — userContent.css (new tab + about: pages) */
+/* Teal Horizon for Zen Browser — userContent.css (new tab + about: pages) */
 @media (prefers-color-scheme: dark) {
   @-moz-document url-prefix("about:") {
     :root {

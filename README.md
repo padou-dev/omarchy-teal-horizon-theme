@@ -1,6 +1,6 @@
 <div align="center">
 
-# Pink Horizon
+# Teal Horizon
 
 **A dark teal-and-pink theme for [Omarchy](https://omarchy.org)**
 
@@ -11,7 +11,7 @@ Misty teal forest. Pink sunset glow. Three 4K wallpapers.
 ![Wallpapers](https://img.shields.io/badge/wallpapers-3×_4K-7cc7c4?style=flat-square&labelColor=0f1f22)
 ![License](https://img.shields.io/badge/license-MIT-e6c79c?style=flat-square&labelColor=0f1f22)
 
-![Pink Horizon desktop screenshot](media/screenshot-apps.webp)
+![Teal Horizon desktop screenshot](media/screenshot-apps.webp)
 
 </div>
 
@@ -42,20 +42,23 @@ Misty teal forest. Pink sunset glow. Three 4K wallpapers.
 3. Paste this URL and press <kbd>Enter</kbd>:
 
    ```
-   https://github.com/padou-dev/omarchy-pink-horizon-theme.git
+   https://github.com/padou-dev/omarchy-teal-horizon-theme.git
    ```
 
-The theme is downloaded to `~/.config/omarchy/themes/pink-horizon` and applied right away.
+The theme is downloaded to `~/.config/omarchy/themes/teal-horizon` and applied right away.
 
 ### Option 2: Terminal
 
 ```bash
-omarchy-theme-install https://github.com/padou-dev/omarchy-pink-horizon-theme.git
+omarchy-theme-install https://github.com/padou-dev/omarchy-teal-horizon-theme.git
 ```
 
 ### Switching themes later
 
-Open the theme picker with <kbd>Super</kbd> + <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>Space</kbd> and choose **Pink Horizon** (or any other theme).
+Open the theme picker with <kbd>Super</kbd> + <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>Space</kbd> and choose **Teal Horizon** (or any other theme).
+
+> **Renamed:** this theme was called *Pink Horizon* until v1.1.0. The name now belongs to its hot-pink sister theme, **[Pink Horizon](https://github.com/padou-dev/omarchy-pink-horizon-theme)**.
+> If you installed it under the old name, run `omarchy-theme-remove pink-horizon`, then install Teal Horizon with the command above.
 
 ---
 
@@ -77,8 +80,8 @@ All wallpapers are **3840 × 2160**. Switch between them with the background pic
 
 | | |
 | :--: | :--: |
-| ![Pink Horizon](media/1-pink-horizon-thumb.webp) | ![Still Lake](media/2-still-lake-thumb.webp) |
-| **1 · Pink Horizon** | **2 · Still Lake** |
+| ![Teal Horizon](media/1-teal-horizon-thumb.webp) | ![Still Lake](media/2-still-lake-thumb.webp) |
+| **1 · Teal Horizon** | **2 · Still Lake** |
 | ![Pink Ridges](media/3-pink-ridges-thumb.webp) | |
 | **3 · Pink Ridges** | |
 
@@ -107,7 +110,7 @@ Some apps aren't themed by Omarchy itself. For these the repo ships ready-made f
 
 <br>
 
-Link cliamp to the active Omarchy theme. This theme ships a `cliamp.toml`, so cliamp gets Pink Horizon's colors:
+Link cliamp to the active Omarchy theme. This theme ships a `cliamp.toml`, so cliamp gets Teal Horizon's colors:
 
 ```bash
 mkdir -p ~/.config/cliamp/themes
@@ -119,7 +122,7 @@ Then open cliamp, press <kbd>t</kbd> and pick **omarchy**, or set `theme = "omar
 If you'd rather not link it, copy the file directly:
 
 ```bash
-cp ~/.config/omarchy/themes/pink-horizon/extras/cliamp/pink-horizon.toml ~/.config/cliamp/themes/
+cp ~/.config/omarchy/themes/teal-horizon/extras/cliamp/teal-horizon.toml ~/.config/cliamp/themes/
 ```
 
 </details>
@@ -135,7 +138,7 @@ cp ~/.config/omarchy/themes/pink-horizon/extras/cliamp/pink-horizon.toml ~/.conf
 4. Copy both CSS files into it:
 
    ```bash
-   cp ~/.config/omarchy/themes/pink-horizon/extras/zen/*.css /path/to/zen/profile/chrome/
+   cp ~/.config/omarchy/themes/teal-horizon/extras/zen/*.css /path/to/zen/profile/chrome/
    ```
 
 5. Make sure Zen is in dark mode, then restart it.
@@ -147,10 +150,10 @@ cp ~/.config/omarchy/themes/pink-horizon/extras/cliamp/pink-horizon.toml ~/.conf
 
 <br>
 
-On Omarchy, foot is themed automatically. For foot on another system, copy `extras/foot/pink-horizon.ini` to `~/.config/foot/` and add this line to `~/.config/foot/foot.ini`:
+On Omarchy, foot is themed automatically. For foot on another system, copy `extras/foot/teal-horizon.ini` to `~/.config/foot/` and add this line to `~/.config/foot/foot.ini`:
 
 ```ini
-include=~/.config/foot/pink-horizon.ini
+include=~/.config/foot/teal-horizon.ini
 ```
 
 </details>
@@ -176,7 +179,7 @@ include=~/.config/foot/pink-horizon.ini
 | Task | Omarchy menu | Terminal |
 |---|---|---|
 | Update to the latest version | **Update → Extra Themes** | `omarchy-theme-update` |
-| Remove the theme | **Remove → Theme** | `omarchy-theme-remove pink-horizon` |
+| Remove the theme | **Remove → Theme** | `omarchy-theme-remove teal-horizon` |
 
 ---
 
@@ -185,7 +188,7 @@ include=~/.config/foot/pink-horizon.ini
 <details>
 <summary><b>Install fails with "Failed to clone theme repo"</b></summary>
 
-Check your internet connection and that the URL is exactly `https://github.com/padou-dev/omarchy-pink-horizon-theme.git`.
+Check your internet connection and that the URL is exactly `https://github.com/padou-dev/omarchy-teal-horizon-theme.git`.
 </details>
 
 <details>
@@ -209,7 +212,7 @@ Check that the icon set is installed: `ls /usr/share/icons | grep -i yaru`.
 <details>
 <summary><b>cliamp shows its default colors</b></summary>
 
-Check that the link points to a real file: `ls -l ~/.config/cliamp/themes/omarchy.toml`. It only resolves while Pink Horizon (or another theme that ships `cliamp.toml`) is active.
+Check that the link points to a real file: `ls -l ~/.config/cliamp/themes/omarchy.toml`. It only resolves while Teal Horizon (or another theme that ships `cliamp.toml`) is active.
 </details>
 
 ---
