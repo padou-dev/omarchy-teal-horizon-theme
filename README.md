@@ -11,7 +11,7 @@ Misty teal forest. Pink sunset glow. Three 4K wallpapers.
 ![Wallpapers](https://img.shields.io/badge/wallpapers-3×_4K-7cc7c4?style=flat-square&labelColor=0f1f22)
 ![License](https://img.shields.io/badge/license-MIT-e6c79c?style=flat-square&labelColor=0f1f22)
 
-![Pink Horizon desktop screenshot](preview.png)
+![Pink Horizon desktop screenshot](media/screenshot-apps.webp)
 
 </div>
 
@@ -61,9 +61,13 @@ Open the theme picker with <kbd>Super</kbd> + <kbd>Ctrl</kbd> + <kbd>Shift</kbd>
 
 ## Screenshots
 
-| Desktop | Boot / unlock screen |
+| Apps | Desktop |
 | :--: | :--: |
-| ![Desktop](preview.png) | ![Unlock screen](preview-unlock.png) |
+| ![Apps: cliamp, Files and Neovim](media/screenshot-apps.webp) | ![Clean desktop](media/screenshot-desktop.webp) |
+
+| Boot / unlock screen |
+| :--: |
+| ![Unlock screen](preview-unlock.png) |
 
 ---
 
@@ -216,7 +220,7 @@ Check that the link points to a real file: `ls -l ~/.config/cliamp/themes/omarch
 .
 ├── backgrounds/          4K wallpapers (+ omarchy.webp logo backdrop)
 ├── extras/               manual-setup themes: cliamp, Zen Browser, foot
-├── media/                README thumbnails
+├── media/                README screenshots and wallpaper thumbnails
 ├── colors.toml           the palette every themed app is generated from
 ├── cliamp.toml           cliamp colors
 ├── icons.theme           icon set name
