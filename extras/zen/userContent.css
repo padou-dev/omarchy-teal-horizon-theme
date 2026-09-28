@@ -2,37 +2,37 @@
 @media (prefers-color-scheme: dark) {
   @-moz-document url-prefix("about:") {
     :root {
-      --in-content-page-background: #0f1f22 !important;
+      --in-content-page-background: #14181b !important;
       --in-content-page-color: #d6e5e3 !important;
-      --in-content-box-background: #183236 !important;
-      --color-accent-primary: #66bcbe !important;
-      --color-accent-primary-hover: #7cc7c4 !important;
-      --color-accent-primary-active: #a8dedb !important;
+      --in-content-box-background: #1c2226 !important;
+      --color-accent-primary: #45d3c7 !important;
+      --color-accent-primary-hover: #7fe0d6 !important;
+      --color-accent-primary-active: #b0eee7 !important;
       --link-color: #ebb4c2 !important;
       --link-color-hover: #f5d0da !important;
-      background-color: #0f1f22 !important;
+      background-color: #14181b !important;
     }
   }
 
   @-moz-document url("about:newtab"), url("about:home") {
     :root {
-      --newtab-background-color: #0f1f22 !important;
-      --newtab-background-color-secondary: #183236 !important;
-      --newtab-element-hover-color: #24474d !important;
+      --newtab-background-color: #14181b !important;
+      --newtab-background-color-secondary: #1c2226 !important;
+      --newtab-element-hover-color: #1f3a3c !important;
       --newtab-text-primary-color: #d6e5e3 !important;
       --newtab-wordmark-color: #ebb4c2 !important;
-      --newtab-primary-action-background: #66bcbe !important;
+      --newtab-primary-action-background: #45d3c7 !important;
     }
     .card-outer:is(:hover, :focus, .active):not(.placeholder) .card-title { color: #ebb4c2 !important; }
   }
 
   @-moz-document url-prefix("about:preferences") {
     :root {
-      --zen-colors-primary: #183236 !important;
-      --zen-colors-tertiary: #0b181a !important;
-      --zen-primary-color: #66bcbe !important;
+      --zen-colors-primary: #1c2226 !important;
+      --zen-colors-tertiary: #0f1215 !important;
+      --zen-primary-color: #45d3c7 !important;
       --in-content-text-color: #d6e5e3 !important;
     }
-    groupbox, moz-card { background: #0f1f22 !important; }
+    groupbox, moz-card { background: #14181b !important; }
   }
 }

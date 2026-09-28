@@ -1,6 +1,6 @@
 # Teal Horizon for cliamp (https://www.cliamp.stream)
-bg = "#0f1f22"
-accent = "#66bcbe"
+bg = "#14181b"
+accent = "#45d3c7"
 bright_fg = "#fdf4f6"
 fg = "#a6c4c3"
 green = "#7fbf9a"

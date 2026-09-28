@@ -2,14 +2,14 @@
 
 # Teal Horizon
 
-**A dark teal-and-pink theme for [Omarchy](https://omarchy.org)**
+**A glowing-cyan theme for [Omarchy](https://omarchy.org)**
 
-Misty teal forest. Pink sunset glow. Three 4K wallpapers.
+Misty forests, glowing rivers and towering clouds, on a cool charcoal background. Six 4K wallpapers.
 
-![Omarchy](https://img.shields.io/badge/Omarchy-4-66bcbe?style=flat-square&labelColor=0f1f22)
-![Hyprland](https://img.shields.io/badge/Hyprland-themed-ebb4c2?style=flat-square&labelColor=0f1f22)
-![Wallpapers](https://img.shields.io/badge/wallpapers-3×_4K-7cc7c4?style=flat-square&labelColor=0f1f22)
-![License](https://img.shields.io/badge/license-MIT-e6c79c?style=flat-square&labelColor=0f1f22)
+![Omarchy](https://img.shields.io/badge/Omarchy-4-45d3c7?style=flat-square&labelColor=14181b)
+![Hyprland](https://img.shields.io/badge/Hyprland-themed-7fe0d6?style=flat-square&labelColor=14181b)
+![Wallpapers](https://img.shields.io/badge/wallpapers-6×_4K-ebb4c2?style=flat-square&labelColor=14181b)
+![License](https://img.shields.io/badge/license-MIT-e6c79c?style=flat-square&labelColor=14181b)
 
 ![Teal Horizon desktop screenshot](media/screenshot-apps.webp)
 
@@ -55,9 +55,9 @@ omarchy-theme-install https://github.com/padou-dev/omarchy-teal-horizon-theme.gi
 
 ### Switching themes later
 
-Open the theme picker with <kbd>Super</kbd> + <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>Space</kbd> and choose **Teal Horizon** (or any other theme).
+Open the theme picker with <kbd>Super</kbd> + <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>Space</kbd> and choose **Teal Horizon**.
 
-> **Renamed:** this theme was called *Pink Horizon* until v1.1.0. The name now belongs to its hot-pink sister theme, **[Pink Horizon](https://github.com/padou-dev/omarchy-pink-horizon-theme)**.
+> **Renamed:** this theme was called *Pink Horizon* until v1.1.0. That name now belongs to its hot-pink sister theme, **[Pink Horizon](https://github.com/padou-dev/omarchy-pink-horizon-theme)**.
 > If you installed it under the old name, run `omarchy-theme-remove pink-horizon`, then install Teal Horizon with the command above.
 
 ---
@@ -80,10 +80,12 @@ All wallpapers are **3840 × 2160**. Switch between them with the background pic
 
 | | |
 | :--: | :--: |
-| ![Teal Horizon](media/1-teal-horizon-thumb.webp) | ![Still Lake](media/2-still-lake-thumb.webp) |
-| **1 · Teal Horizon** | **2 · Still Lake** |
-| ![Pink Ridges](media/3-pink-ridges-thumb.webp) | |
-| **3 · Pink Ridges** | |
+| ![Teal Horizon](media/1-teal-horizon-thumb.webp) | ![Ancient Forest](media/2-ancient-forest-thumb.webp) |
+| **1 · Teal Horizon** | **2 · Ancient Forest** |
+| ![Glow River](media/3-glow-river-thumb.webp) | ![Sky Citadel](media/4-sky-citadel-thumb.webp) |
+| **3 · Glow River** | **4 · Sky Citadel** |
+| ![Cloud Field](media/5-cloud-field-thumb.webp) | ![Overpass](media/6-overpass-thumb.webp) |
+| **5 · Cloud Field** | **6 · Overpass** |
 
 ---
 
@@ -93,7 +95,7 @@ Omarchy generates every app's colors from this theme's single `colors.toml`, so 
 
 | Area | Apps |
 |---|---|
-| Desktop | Hyprland window borders (teal gradient), Omarchy shell: bar, launcher, notifications, OSD, lock screen |
+| Desktop | Hyprland window borders (cyan → mint gradient), Omarchy shell: bar, launcher, notifications, OSD, lock screen |
 | Terminals | Alacritty, Ghostty, Kitty, Foot |
 | Editors | Neovim, VS Code, Helix, Obsidian |
 | Browsers | Chromium, Brave, Brave Origin (toolbar color) |
@@ -164,11 +166,11 @@ include=~/.config/foot/teal-horizon.ini
 
 | | Role | Hex | | Role | Hex |
 |:-:|---|---|:-:|---|---|
-| ![](https://placehold.co/18x18/0f1f22/0f1f22.png) | background | `#0f1f22` | ![](https://placehold.co/18x18/e8839a/e8839a.png) | red | `#e8839a` |
+| ![](https://placehold.co/18x18/14181b/14181b.png) | background | `#14181b` | ![](https://placehold.co/18x18/e8839a/e8839a.png) | red | `#e8839a` |
 | ![](https://placehold.co/18x18/d6e5e3/d6e5e3.png) | foreground | `#d6e5e3` | ![](https://placehold.co/18x18/e3a38a/e3a38a.png) | orange | `#e3a38a` |
-| ![](https://placehold.co/18x18/66bcbe/66bcbe.png) | accent | `#66bcbe` | ![](https://placehold.co/18x18/e6c79c/e6c79c.png) | yellow | `#e6c79c` |
-| ![](https://placehold.co/18x18/24474d/24474d.png) | selection | `#24474d` | ![](https://placehold.co/18x18/7fbf9a/7fbf9a.png) | green | `#7fbf9a` |
-| ![](https://placehold.co/18x18/4d7076/4d7076.png) | muted | `#4d7076` | ![](https://placehold.co/18x18/7cc7c4/7cc7c4.png) | cyan | `#7cc7c4` |
+| ![](https://placehold.co/18x18/45d3c7/45d3c7.png) | accent | `#45d3c7` | ![](https://placehold.co/18x18/e6c79c/e6c79c.png) | yellow | `#e6c79c` |
+| ![](https://placehold.co/18x18/1f3a3c/1f3a3c.png) | selection | `#1f3a3c` | ![](https://placehold.co/18x18/7fbf9a/7fbf9a.png) | green | `#7fbf9a` |
+| ![](https://placehold.co/18x18/6b7c80/6b7c80.png) | muted | `#6b7c80` | ![](https://placehold.co/18x18/7fe0d6/7fe0d6.png) | cyan | `#7fe0d6` |
 | ![](https://placehold.co/18x18/fdf4f6/fdf4f6.png) | bright foreground | `#fdf4f6` | ![](https://placehold.co/18x18/6aa5c8/6aa5c8.png) | blue | `#6aa5c8` |
 | | | | ![](https://placehold.co/18x18/ebb4c2/ebb4c2.png) | magenta | `#ebb4c2` |
 
@@ -198,12 +200,6 @@ Close and reopen it. Some terminals only read their colors at launch.
 </details>
 
 <details>
-<summary><b>"Ignored in … : …" message after installing</b></summary>
-
-Omarchy never loads terminal configs or Lua files from themes installed via git. This theme doesn't ship any, so you shouldn't see this. If you do, run the update command above.
-</details>
-
-<details>
 <summary><b>Icons didn't change</b></summary>
 
 Check that the icon set is installed: `ls /usr/share/icons | grep -i yaru`.
@@ -212,7 +208,7 @@ Check that the icon set is installed: `ls /usr/share/icons | grep -i yaru`.
 <details>
 <summary><b>cliamp shows its default colors</b></summary>
 
-Check that the link points to a real file: `ls -l ~/.config/cliamp/themes/omarchy.toml`. It only resolves while Teal Horizon (or another theme that ships `cliamp.toml`) is active.
+Check that the link points to a real file: `ls -l ~/.config/cliamp/themes/omarchy.toml`. It only resolves while a theme that ships `cliamp.toml` is active.
 </details>
 
 ---
@@ -236,9 +232,9 @@ Check that the link points to a real file: `ls -l ~/.config/cliamp/themes/omarch
 
 ## Credits and license
 
-- Theme and wallpapers by **[p@nos](https://github.com/padou-dev)**.
-- Wallpaper 1 was upscaled to 4K with [Real-ESRGAN](https://github.com/xinntao/Real-ESRGAN). It is fan art featuring characters from *NIER:AUTOMATA* (© SQUARE ENIX). This project is not affiliated with or endorsed by Square Enix.
-- Wallpapers 2–3 were generated procedurally for this theme.
+- Theme and wallpapers by **[p@nos](https://github.com/padou-dev)**. Wallpapers were upscaled to 4K with [Real-ESRGAN](https://github.com/xinntao/Real-ESRGAN).
+- Wallpaper 1 is fan art featuring characters from *NIER:AUTOMATA* (© SQUARE ENIX). This project is not affiliated with or endorsed by Square Enix.
 - Built on the theme system of [basecamp/omarchy](https://github.com/basecamp/omarchy). The Zen styling follows the approach of [catppuccin/zen-browser](https://github.com/catppuccin/zen-browser).
+- Sister theme: **[Pink Horizon](https://github.com/padou-dev/omarchy-pink-horizon-theme)**.
 
 Theme files are released under the [MIT License](LICENSE). Wallpaper 1 is excluded from the MIT License.
