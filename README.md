@@ -11,7 +11,7 @@ Misty forests, glowing rivers and towering clouds, on a cool charcoal background
 ![Wallpapers](https://img.shields.io/badge/wallpapers-6×_4K-ebb4c2?style=flat-square&labelColor=14181b)
 ![License](https://img.shields.io/badge/license-MIT-e6c79c?style=flat-square&labelColor=14181b)
 
-![Teal Horizon desktop screenshot](media/screenshot-apps.webp)
+![Teal Horizon desktop screenshot](media/screenshot-overview.webp)
 
 </div>
 
@@ -64,13 +64,9 @@ Open the theme picker with <kbd>Super</kbd> + <kbd>Ctrl</kbd> + <kbd>Shift</kbd>
 
 ## Screenshots
 
-| Apps | Desktop |
+| Overview | Boot / unlock screen |
 | :--: | :--: |
-| ![Apps: cliamp, Files and Neovim](media/screenshot-apps.webp) | ![Clean desktop](media/screenshot-desktop.webp) |
-
-| Boot / unlock screen |
-| :--: |
-| ![Unlock screen](preview-unlock.png) |
+| ![Neovim, btop, terminal and Files](media/screenshot-overview.webp) | ![Unlock screen](preview-unlock.png) |
 
 ---
 
